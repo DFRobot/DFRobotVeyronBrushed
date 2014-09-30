@@ -1,13 +1,16 @@
 /***************************************************
- Digital Temperature and Humidity sensor (With Stainless Steel Probe)
+ Veyron Brushed motor controller
  <http://www.dfrobot.com/index.php?route=product/product&path=48&product_id=912#.UniMMJH7k8M>
  
  ***************************************************
- This example reads temperature and humidity from SHT1x Humidity and Temperature Sensor.
+ This is the library for Veyron Brushed motor controller.
+ See the example for details.
  
  Created 2014-8-28
  By Angelo qiao <Angelo.qiao@dfrobot.com>
  Modified 2014-8-29
+ By Angelo qiao Angelo.qiao@dfrobot.com>
+ Modified 2014-9-30
  By Angelo qiao Angelo.qiao@dfrobot.com>
  
  GNU Lesser General Public License.
@@ -17,10 +20,9 @@
 
 /***********Notice and Trouble shooting***************
  1.Connection and Diagram can be found here
- <http://www.dfrobot.com/wiki/index.php/Digital_Temperature_and_Humidity_sensor_(With_Stainless_Steel_Probe)_(SKU:SEN0148)#Connecting_diagram>
- 2.This code is tested on Arduino Uno, Leonardo, Mega boards.
- 3.SHT1x library is created by jonoxer.
- See <https://github.com/practicalarduino/SHT1x> for details.
+ <>
+ 2.This code is tested on Arduino Leonardo, Mega boards.
+ If you have to use the UNO, please set a 1K pull-down resister on RX pin (D0 pin) of the Uno.
  ****************************************************/
 
 #ifndef DFRobotVeyronBrushed_h

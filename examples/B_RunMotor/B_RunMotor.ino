@@ -1,5 +1,5 @@
 /***************************************************
- Digital Temperature and Humidity sensor (With Stainless Steel Probe)
+ Veyron Brushed motor controller
  <http://www.dfrobot.com/index.php?route=product/product&path=48&product_id=912#.UniMMJH7k8M>
  
  ***************************************************
